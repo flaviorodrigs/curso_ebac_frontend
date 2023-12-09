@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-color: #121111;
+    color: white;
+    padding: 16px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.cabecalho nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.articles article img{
+    width: 100%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, article{
+    padding-bottom: 16px;
+}
+
+section h3{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.articles article{
+    width: 30%;
+}
+
+article p, article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article a{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover{
+    text-decoration: underline;
+}
+
+#esp{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esp article a{
+    background-color: #009432;
+}
+
+#eco{
+    background-color: #f8f59f;
+}
+
+#eco article a{
+    background-color: #ff9f1a;
+}
