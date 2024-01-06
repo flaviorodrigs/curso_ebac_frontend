@@ -28,7 +28,7 @@ main h1{
     margin-bottom: 20px;
 }
 
-form #formulário{
+main form #formulário{
     display: flex;
     flex-direction: columm;
 }
