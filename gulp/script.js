@@ -1,0 +1,2 @@
+console.log("Olá, Mundo!")
+console.log("Executando a atividade do Gulp")

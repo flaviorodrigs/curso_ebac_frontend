@@ -1,0 +1,32 @@
+@use "variaveis";
+
+body{
+    background-color: variaveis.$corPrincipal;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+img{
+    width: 300px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container>div{
+    width: 30%;
+}
+
+.container>div img{
+    width: 100%;
+}
